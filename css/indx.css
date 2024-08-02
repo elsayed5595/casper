@@ -206,7 +206,7 @@ header nav .form i{
 .landing{
     min-height: 100vh;
     background-color:#1f2021 ;
-    background-image: url(/html/cbedc2fc76c2f86a895e5d51b5bfdb7c.jpg!w700wp );
+    background-image: url(../image/landing.avif );
     background-size: cover;
     position: relative;
 }
@@ -216,7 +216,7 @@ header nav .form i{
     top:  0;
     width: 100%;
    height: 100%;
-    background-color: rgb(0 0 0 / 15%);
+    background-color: rgb(0 0 0 / 35%);
 
 }
 .landing .text{
@@ -350,7 +350,7 @@ margin-left: 50px;
     padding-bottom: var(--section-padding);
     height: 600px;
     position: relative;
-    background-image: url(/html/tecno.jpeg);
+    background-image: url(../image/tecno.jpeg);
     background-size: cover;
     display: flex;
 align-items: center;
@@ -364,12 +364,14 @@ overflow: hidden;
     width: 100%;
    height: 100%;
     background-color: rgb(0 0 0 / 40%);
+  
 }
 
 .design .image,.design .text{
     position: relative;
     z-index: 2;
     flex: 1;
+    
 }
 
 .design .image{
@@ -384,6 +386,7 @@ overflow: hidden;
 .design .image img{
     position: relative;
     bottom: -150px;
+    
 }
 .design .text{
     color: white;
@@ -406,6 +409,7 @@ padding: 15px 0;
     margin-right: 20px;
     position: relative;
     top: 1px;
+    
 }
 /*end desgn*/
 
@@ -583,7 +587,7 @@ position: relative;
     padding-top: var(--section-padding);
     padding-bottom: var(--section-padding);
     text-align: center;
-    background-image: url(/html/stats-background.png);
+    background-image: url(../image/stats-background.png);
     background-size: cover
 
 }
@@ -928,7 +932,7 @@ font-size: 20px;
 .subscribe{
 padding-top: var(--section-padding);
 padding-bottom:var(--section-padding) ;  
-background-image: url(/html/subscribe1.jpg);
+background-image: url(../image/subscribe1.jpg);
 background-size: cover;
 position: relative;
 color: white;
@@ -960,6 +964,7 @@ display: flex;
 position: relative;
 width: 500px;
 max-width: 100%;
+
 }
 
 .subscribe form input[type="email"]{
@@ -1013,6 +1018,7 @@ max-width: 100%;
  .contact .content{
     display: flex;
     justify-content: space-between;
+   
  }
  @media(max-width:767px){
     .contact .content {
@@ -1088,7 +1094,7 @@ margin-bottom: 30px;
  .foter{
     padding-top: calc(var(--section-padding) / 2);
     padding-bottom: calc(var(--section-padding) / 2);
-    background-image: url(/html/subscribe1.jpg);
+    background-image: url(../image/foteer.webp);
     background-size: cover;
     position: relative;
     color: white;
@@ -1102,7 +1108,7 @@ margin-bottom: 30px;
     top: 0;
     width: 100%;
     height: 100%;
-    background-color: rgb(0 0 0 / 70% );
+    background-color: rgb(0 0 0 / 40% );
 
  }
  .foter .container{
